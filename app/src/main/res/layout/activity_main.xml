@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tech.toughput.dicodingsubmissionpemula.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/beautiful_indo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:textSize="22sp"
+            android:text="Beautiful Indonesia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/traditional_food"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#4D000000"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="@string/traditional_food"
+                    android:textAlignment="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+                <ImageButton
+                    android:id="@+id/traditional_house"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#4D000000"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="@string/traditional_house"
+                    android:textAlignment="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/traditional_clothing"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#4D000000"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="@string/traditional_clothing"
+                    android:textAlignment="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+                <ImageButton
+                    android:id="@+id/traditional_dances"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#4D000000"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="@string/traditional_dances"
+                    android:textAlignment="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <ImageButton
+                    android:id="@+id/traditional_weapon"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#4D000000"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="Traditional Weapon"
+                    android:textAlignment="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/folk_song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+                <ImageButton
+                    android:id="@+id/musical_instrument"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#4D000000"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="Musical Instruments"
+                    android:textAlignment="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/traditional_event"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#4D000000"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="Traditional Event"
+                    android:textAlignment="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+                <ImageButton
+                    android:id="@+id/ethnic_group"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#4D000000"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="Ethnic Group"
+                    android:textAlignment="center"/>
+            </FrameLayout>
+
+        </GridLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

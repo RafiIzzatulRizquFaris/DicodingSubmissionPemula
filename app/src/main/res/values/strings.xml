@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Beautiful Indonesia</string>
+    <string name="mknn_trdsnl">Makanan Tradisional</string>
+    <string name="cmng_soon">Coming Soon</string>
+    <string name="cardview">CardView</string>
+    <string name="gridview">GridView</string>
+    <string name="listview">ListView</string>
+    <string name="salin">Copy Link</string>
+    <string name="share">Share</string>
+    <string name="detailfoto">DetailFoto</string>
+    <string name="traditional_food">Traditional Food</string>
+    <string name="traditional_house">Traditional House</string>
+    <string name="traditional_clothing">Traditional Clothing</string>
+    <string name="traditional_dances">Traditional Dances</string>
+    <string name="nasi_goreng">Nasi Goreng</string>
+</resources>
